@@ -1,7 +1,29 @@
-.header-wrapper {
-    background-color: #1F2937;
+/*import google fonts Robot */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Applies to the whole website
+* {
+
 }
 
-a:visited {
-    color:white;
+/*Applies to the body */
+body{
+    font-family: 'Roboto', sans-serif;
 }
+
+/*Applies to the header */
+header {
+    background-color: #1f2937;
+    padding: 1em 13em;
+}
+
+/*Applies to the NAV */
+dis
+
+/*Applies to the Logo */
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
