@@ -17,8 +17,12 @@ header {
     padding: 1em 13em;
 }
 
-/*Applies to the NAV */
-dis
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 
 /*Applies to the Logo */
 #logo {
@@ -27,3 +31,16 @@ dis
     font-weight: bolder;
 }
 
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+
+/*for unvisited links */
+a:link{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none; /*removes underline from links*/
+}
